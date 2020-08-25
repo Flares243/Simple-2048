@@ -1,86 +1,51 @@
 #include "D:\2048.h"
 
-using namespace std;
-
-
-
 int main()
-
 {
 	srand(time(0));
 	int a[4][4] ;
 	int d = 4, c = 4;
 	char selection;
-
-
-
 	cout << "\n WELCOM TO GAME 2048";
-
 	cout << "\n======================";
-
-
 	cout << "\n A - Move Left";
-
 	cout << "\n D - Move Right";
-	
 	cout << "\n W - Move Up";
-
 	cout << "\n S - Move Down";
-
 	cout << "\n X - Exit";
-
-	cout << "\n Enter selection: ";
-
-	// read the input
-
-	cin >> selection;
-
-
-
-	switch (selection)
-
-	{
-
-	case 'A':
-
-	case 'a': 
-
-				break;
 	
-	case 'D':
+	while(1) {
+		cout << "\n Enter selection: ";
+		cin >> selection;
+		switch (selection)
+		{
+			case 'A':
+			case 'a': 
 
-	case 'd':
+						break;
 
-				break;
-	
-	case 'S' :
-	
-	case 's' :
-				break;
+			case 'D':
+			case 'd':
 
-	
-	case 'W':
+						break;
 
-	case 'w': 
+			case 'S' :
+			case 's' :
+						break;
 
-			  break;
+			case 'W':
+			case 'w': 
 
-	case 'X':
+					  break;
 
-	case 'x': 
+			case 'X':
+			case 'x': 
 
-			  break;
+					  break;
 
-
-	default: cout << "" ;
-
-
+			default: cout << "" ;
+		}
 	}
-
-	cout << "\n";
-
-
-
+	
 	return 0;
-
 }
