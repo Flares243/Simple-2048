@@ -45,3 +45,18 @@ void Left(int a[][], int d, int c)
 {
 	
 }
+
+void Right(int a[][], int d, int c)
+{
+
+}
+
+void Up(int a[][], int d, int c)
+{
+
+}
+
+void Down(int a[][], int d, int c)
+{
+
+}
