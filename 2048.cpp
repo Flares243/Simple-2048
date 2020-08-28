@@ -70,8 +70,6 @@ int main()
 			case 'X':
 			case 'x':
 			{
-				cout << "Thank you for playing.";
-				getch();
 				exit(0);
 				break;
 			}
