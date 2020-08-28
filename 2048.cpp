@@ -7,10 +7,6 @@ int main()
 	d = 4;
 	c = 4;
 
-	COORD coord;
-	coord.X = 0;
-	coord.Y = 0;
-
 	srand(time(0));
 
 	FirstRoll(a, d, c);
@@ -20,7 +16,6 @@ int main()
 	cout << "\n W - Move Up";
 	cout << "\n S - Move Down";
 	cout << "\n X - Exit";
-	SetConsoleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE), coord);
 
 	while (1) {
 		select = getch();
